@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <style>
+            #button{
+                color:white;
+                background-color:blue;
+                text-align: right;
+                padding: 2px;
+                margin: 5px;
+            }
+            td{
+                margin: 10px;
+                padding: 2px;
+            }
+            #indent{
+                text-align: right;
+            }
+            #back{
+                text-align: right;
+                margin: 2px;
+                padding:2px;
+            }
+            table{
+                margin: 2px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="back">
+            <a href="index.html">go back</a>
+        </div>
+        <h3>Find pages with...</h3>
+        <form action="https://www.google.com/search">
+            <table>
+                <tr>
+                    <td>all these words:</td>
+                    <td><input type="text" name="as_q"></td>
+                </tr>
+                <tr>
+                    <td>this exact word or phrase:</td>
+                    <td><input type="text" name="as_epq"></td>
+                </tr>
+                <tr>
+                    <td>any of these words:</td>
+                    <td><input type="text" name="as_oq"></td>
+                </tr>
+                <tr>
+                    <td>none of these words:</td>
+                    <td><input type="text" name="as_eq"></td>
+                </tr>                              
+            </table>        
+            <input id="button" type="submit" value="Advanced Search">
+        </form>
+    </body>
+</html>

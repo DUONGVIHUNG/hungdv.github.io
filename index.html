@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <style>
+            #image, #advance{
+                padding: 5px;
+                text-align: right;
+            }
+            .text{
+                color: goldenrod;
+                font-style: underline;
+            }
+
+            form{
+                text-align: center;
+            }
+            .space1{
+                margin:5px;
+            }
+            .space2{
+                margin:5px;
+            }
+            button{
+                background-color: whitesmoke;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div id="image">
+            <a class="text" href="imageSearch.html">go to Google Image Search</a>
+        </div>
+        <div id="advance">
+            <a class="text" href="advanceSearch.html">go to Google Advance Search</a>
+        </div>
+        <form action="https://www.google.com/search">
+                <input class="space1" type="text" name="q">
+                <br>
+                <input class="space2" type="submit" value="GoogleSearch">
+                <input id="button" type="submit" name="btnI" value="I'm Feeling Lucky">
+        </form>
+    </body>
+</html>
